@@ -22,7 +22,6 @@
 
 #define kMFPrefsPluginToolbarIdentifier @"Plugin"
 #define kMFPrefsGeneralToolbarIdentifier @"General"
-#define kMFPrefsInfoToolbarIdentifier @"Info"
 
 @implementation MFPreferencesController
 - (id)initWithWindowNibName:(NSString *)name {
@@ -35,23 +34,15 @@
 }
 
 - (NSArray *)prefsViews {
-	return [NSArray arrayWithObjects: pluginPrefsView, generalPrefsView, infoPrefsView, nil];
+	return [NSArray arrayWithObjects: pluginPrefsView, generalPrefsView, nil];
 }
 
 - (void)awakeFromNib {
-	NSDictionary* infoDict = [[NSBundle bundleForClass:[self class]] infoDictionary];
-
 	[agentLoginItemButton setState:mfcGetStateForAgentLoginItem()];
 	[menuLoginItemButton setState:[_sharedPreferences getBoolForPreference: kMFPrefsAutoloadMenuling]];
 	NSString *fuseVersion = mfcGetFuseVersion();
 	NSString *versionString = fuseVersion ? [NSString stringWithFormat: @"FUSE Version %@ Found", fuseVersion] : @"FUSE not Found!";
 	[fuseVersionTextField setStringValue: versionString];
-
-	[macfusionVersionInfo setStringValue: infoDict[@"CFBundleShortVersionString"]];
-	[buildVersionInfo setStringValue: infoDict[@"CFBundleVersion"]];
-	[githashVersionInfo setStringValue: infoDict[@"GitHash"]];
-	[fuseVersionInfo setStringValue: fuseVersion];
-
 	NSToolbar *toolbar = [[NSToolbar alloc] initWithIdentifier: @"Preferences"];
 	[toolbar setDelegate:self];
 	[toolbar setAllowsUserCustomization:NO];
@@ -65,12 +56,6 @@
 	}
 	
 	[self toolbarItemChanged:[[toolbar items] objectAtIndex:0]];
-}
-
-
-- (IBAction)openWebsite:(id)sender
-{
-	[[NSWorkspace sharedWorkspace] openURL: [NSURL URLWithString: @"https://macfusion-ng.github.io"]];
 }
 
 - (IBAction)loginItemCheckboxChanged:(id)sender {
@@ -96,10 +81,6 @@
 		item = [[NSToolbarItem alloc] initWithItemIdentifier: kMFPrefsGeneralToolbarIdentifier];
 		[item setLabel:@"General"];
 		[item setImage:[NSImage imageNamed: @"NSPreferencesGeneral"]];
-	} else if ([itemIdentifier  isEqual: kMFPrefsInfoToolbarIdentifier]) {
-		item = [[NSToolbarItem alloc] initWithItemIdentifier: kMFPrefsInfoToolbarIdentifier];
-		[item setLabel:@"Info"];
-		[item setImage:[NSImage imageNamed: @"NSInfo"]];
 	}
 	
 	[item setTarget:self];
@@ -108,7 +89,7 @@
 }
 
 - (NSArray *)toolbarAllowedItemIdentifiers:(NSToolbar *)toolbar {
-	return [NSArray arrayWithObjects:kMFPrefsGeneralToolbarIdentifier, kMFPrefsPluginToolbarIdentifier, kMFPrefsInfoToolbarIdentifier, nil];
+	return [NSArray arrayWithObjects:kMFPrefsGeneralToolbarIdentifier, kMFPrefsPluginToolbarIdentifier, nil];
 }
 
 - (NSArray *)toolbarDefaultItemIdentifiers:(NSToolbar *)toolbar {
@@ -125,9 +106,7 @@
 		newView = pluginPrefsView;
 	} else if ([[sender itemIdentifier]  isEqual: kMFPrefsGeneralToolbarIdentifier]) {
 		newView = generalPrefsView;
-	} else if ([[sender itemIdentifier]  isEqual: kMFPrefsInfoToolbarIdentifier]) {
-		newView = infoPrefsView;
-	}else {
+	} else {
 		return;
 	}
 	

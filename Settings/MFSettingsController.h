@@ -32,7 +32,6 @@ MFLogViewerController, MGActionButton;
 	MFPreferencesController* preferencesController;
 	MFLogViewerController* logViewerController;
     NSMutableArray *filesystemsToDeleteBuffer;
-	NSString *titleMainView;
 }
 
 - (IBAction)newFSPopupClicked:(id)sender;
