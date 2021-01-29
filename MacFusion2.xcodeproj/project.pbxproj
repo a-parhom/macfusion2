@@ -37,7 +37,10 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
+		3046A13D2020E1BD002C5CAE /* MacFusion_Menu_Dark.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 3046A13B2020E1BD002C5CAE /* MacFusion_Menu_Dark.tiff */; };
+		3046A13E2020E1BD002C5CAE /* MacFusion_Menu_Light.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 3046A13C2020E1BD002C5CAE /* MacFusion_Menu_Light.tiff */; };
 		305CDF9F1FFFB7E80010586C /* sshfs-static in Resources */ = {isa = PBXBuildFile; fileRef = 305CDF9D1FFFB7C90010586C /* sshfs-static */; };
+		30F5D99F2405D93700D6AE7B /* curlftpfs_static_mg in Resources */ = {isa = PBXBuildFile; fileRef = 30F5D99D2405D93700D6AE7B /* curlftpfs_static_mg */; };
 		502970E9165625B5007676B8 /* IconFamily.h in Headers */ = {isa = PBXBuildFile; fileRef = 502970E7165625B5007676B8 /* IconFamily.h */; };
 		502970EA165625B5007676B8 /* IconFamily.m in Sources */ = {isa = PBXBuildFile; fileRef = 502970E8165625B5007676B8 /* IconFamily.m */; };
 		502970EE165625C9007676B8 /* NSString+CarbonFSRefCreation.h in Headers */ = {isa = PBXBuildFile; fileRef = 502970EC165625C9007676B8 /* NSString+CarbonFSRefCreation.h */; };
@@ -137,10 +140,6 @@
 		D41E24260D897D5700F46F50 /* MFPreferences.xib in Resources */ = {isa = PBXBuildFile; fileRef = D41E24250D897D5600F46F50 /* MFPreferences.xib */; };
 		D41E25620D89B14900F46F50 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = D41E25610D89B14800F46F50 /* Credits.rtf */; };
 		D41E25640D89B17C00F46F50 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = D41E25610D89B14800F46F50 /* Credits.rtf */; };
-		D41E25C20D89B4BA00F46F50 /* MacFusion_Menu_Light.png in Resources */ = {isa = PBXBuildFile; fileRef = D41E25C00D89B4B900F46F50 /* MacFusion_Menu_Light.png */; };
-		D41E25C30D89B4BA00F46F50 /* MacFusion_Menu_Dark.png in Resources */ = {isa = PBXBuildFile; fileRef = D41E25C10D89B4B900F46F50 /* MacFusion_Menu_Dark.png */; };
-		D41E25EA0D89B56100F46F50 /* MacFusion_Menu_Light.png in Resources */ = {isa = PBXBuildFile; fileRef = D41E25C00D89B4B900F46F50 /* MacFusion_Menu_Light.png */; };
-		D41E25EB0D89B56100F46F50 /* MacFusion_Menu_Dark.png in Resources */ = {isa = PBXBuildFile; fileRef = D41E25C10D89B4B900F46F50 /* MacFusion_Menu_Dark.png */; };
 		D439D6D60D0A0FDE0025574A /* sshfsConfiguration.xib in Resources */ = {isa = PBXBuildFile; fileRef = D439D6D50D0A0FDE0025574A /* sshfsConfiguration.xib */; };
 		D45579170D40715F00669882 /* MFInertButton.m in Sources */ = {isa = PBXBuildFile; fileRef = D45579160D40715F00669882 /* MFInertButton.m */; };
 		D45F0D950D8B3396008CC7E3 /* macfusionAgent-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D45F0D940D8B3396008CC7E3 /* macfusionAgent-Info.plist */; };
@@ -176,7 +175,6 @@
 		D4E6D82F0D9373E40022763F /* ftpfs.png in Resources */ = {isa = PBXBuildFile; fileRef = D4E6D82E0D9373E40022763F /* ftpfs.png */; };
 		D4E6D8340D93744D0022763F /* FTPFSDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D4E6D8330D93744D0022763F /* FTPFSDelegate.m */; };
 		D4E6D8370D93746E0022763F /* ftpfs.mfplugin in Copy PlugIns */ = {isa = PBXBuildFile; fileRef = D4E6D8090D9372640022763F /* ftpfs.mfplugin */; };
-		D4E6D8430D9375930022763F /* curlftpfs_static_mg in Resources */ = {isa = PBXBuildFile; fileRef = D4E6D8420D9375930022763F /* curlftpfs_static_mg */; };
 		D4E6D8480D937DB00022763F /* ftpfsConfiguration.xib in Resources */ = {isa = PBXBuildFile; fileRef = D4E6D8470D937DB00022763F /* ftpfsConfiguration.xib */; };
 		D4E6DB050D93928F0022763F /* ftpfs_askpass in Resources */ = {isa = PBXBuildFile; fileRef = D4E6DB010D9392840022763F /* ftpfs_askpass */; };
 		D4E6DB120D9392AE0022763F /* ftpfs_askpass.m in Sources */ = {isa = PBXBuildFile; fileRef = D4E6DAF80D9392450022763F /* ftpfs_askpass.m */; };
@@ -364,7 +362,10 @@
 
 /* Begin PBXFileReference section */
 		08FB779EFE84155DC02AAC07 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		3046A13B2020E1BD002C5CAE /* MacFusion_Menu_Dark.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = MacFusion_Menu_Dark.tiff; sourceTree = "<group>"; };
+		3046A13C2020E1BD002C5CAE /* MacFusion_Menu_Light.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = MacFusion_Menu_Light.tiff; sourceTree = "<group>"; };
 		305CDF9D1FFFB7C90010586C /* sshfs-static */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = "sshfs-static"; sourceTree = "<group>"; };
+		30F5D99D2405D93700D6AE7B /* curlftpfs_static_mg */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = curlftpfs_static_mg; sourceTree = "<group>"; };
 		502970E7165625B5007676B8 /* IconFamily.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IconFamily.h; path = MFCore/IconFamily.h; sourceTree = "<group>"; };
 		502970E8165625B5007676B8 /* IconFamily.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = IconFamily.m; path = MFCore/IconFamily.m; sourceTree = "<group>"; };
 		502970EC165625C9007676B8 /* NSString+CarbonFSRefCreation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSString+CarbonFSRefCreation.h"; path = "MFCore/NSString+CarbonFSRefCreation.h"; sourceTree = "<group>"; };
@@ -457,8 +458,6 @@
 		D41E23980D88E7B100F46F50 /* macfusionAdvancedView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = macfusionAdvancedView.xib; sourceTree = "<group>"; };
 		D41E24250D897D5600F46F50 /* MFPreferences.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MFPreferences.xib; sourceTree = "<group>"; };
 		D41E25610D89B14800F46F50 /* Credits.rtf */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; path = Credits.rtf; sourceTree = "<group>"; };
-		D41E25C00D89B4B900F46F50 /* MacFusion_Menu_Light.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MacFusion_Menu_Light.png; sourceTree = "<group>"; };
-		D41E25C10D89B4B900F46F50 /* MacFusion_Menu_Dark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MacFusion_Menu_Dark.png; sourceTree = "<group>"; };
 		D42E15560CE03A8200C81814 /* MFCore-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MFCore-Info.plist"; sourceTree = "<group>"; };
 		D4386C0A0D0B46EE0078C19F /* macfusion.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; name = macfusion.tiff; path = Resources/macfusion.tiff; sourceTree = SOURCE_ROOT; };
 		D4386C0B0D0B47240078C19F /* macfusionIcon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = macfusionIcon.icns; sourceTree = "<group>"; };
@@ -508,7 +507,6 @@
 		D4E6D82E0D9373E40022763F /* ftpfs.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ftpfs.png; sourceTree = "<group>"; };
 		D4E6D8320D93744D0022763F /* FTPFSDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FTPFSDelegate.h; sourceTree = "<group>"; };
 		D4E6D8330D93744D0022763F /* FTPFSDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FTPFSDelegate.m; sourceTree = "<group>"; };
-		D4E6D8420D9375930022763F /* curlftpfs_static_mg */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = curlftpfs_static_mg; sourceTree = "<group>"; };
 		D4E6D8470D937DB00022763F /* ftpfsConfiguration.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ftpfsConfiguration.xib; sourceTree = "<group>"; };
 		D4E6DAF80D9392450022763F /* ftpfs_askpass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ftpfs_askpass.m; sourceTree = "<group>"; };
 		D4E6DB010D9392840022763F /* ftpfs_askpass */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ftpfs_askpass; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -684,8 +682,8 @@
 			children = (
 				50BC2B60161837D1007E13BD /* off.png */,
 				50BC2B6316183A1B007E13BD /* on.png */,
-				D41E25C00D89B4B900F46F50 /* MacFusion_Menu_Light.png */,
-				D41E25C10D89B4B900F46F50 /* MacFusion_Menu_Dark.png */,
+				3046A13B2020E1BD002C5CAE /* MacFusion_Menu_Dark.tiff */,
+				3046A13C2020E1BD002C5CAE /* MacFusion_Menu_Light.tiff */,
 				D48DB9A90D70D910008A62BB /* MainMenu.xib */,
 				D41867E60D729A31004975AF /* QuickMount.xib */,
 			);
@@ -1025,8 +1023,8 @@
 		D4E6D8170D9372C40022763F /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				30F5D99D2405D93700D6AE7B /* curlftpfs_static_mg */,
 				D4E6D8470D937DB00022763F /* ftpfsConfiguration.xib */,
-				D4E6D8420D9375930022763F /* curlftpfs_static_mg */,
 				D4E6D82E0D9373E40022763F /* ftpfs.png */,
 				D4E6D80A0D9372640022763F /* ftpfs-Info.plist */,
 				D4E6D8270D9373130022763F /* ftpfs_icon.icns */,
@@ -1262,6 +1260,41 @@
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0730;
+				TargetAttributes = {
+					D41E17D30D8603DC00F46F50 = {
+						DevelopmentTeam = HBQ4P53XPG;
+					};
+					D41E1E0B0D8758A200F46F50 = {
+						DevelopmentTeam = HBQ4P53XPG;
+					};
+					D42E15540CE03A8200C81814 = {
+						DevelopmentTeam = HBQ4P53XPG;
+					};
+					D48DB97E0D70D7A4008A62BB = {
+						DevelopmentTeam = HBQ4P53XPG;
+					};
+					D4B14BB50CE03CC3003195A3 = {
+						DevelopmentTeam = HBQ4P53XPG;
+					};
+					D4B14D6B0CE19545003195A3 = {
+						DevelopmentTeam = HBQ4P53XPG;
+					};
+					D4DB42030D3E863100C99914 = {
+						DevelopmentTeam = HBQ4P53XPG;
+					};
+					D4E6D8080D9372640022763F = {
+						DevelopmentTeam = HBQ4P53XPG;
+					};
+					D4E6DB000D9392840022763F = {
+						DevelopmentTeam = HBQ4P53XPG;
+					};
+					D4EA614F0D8B30DA006D8885 = {
+						DevelopmentTeam = HBQ4P53XPG;
+					};
+					D4FC0DA30CF23CFE0029B133 = {
+						DevelopmentTeam = HBQ4P53XPG;
+					};
+				};
 			};
 			buildConfigurationList = 1DEB927808733DD40010E9CD /* Build configuration list for PBXProject "MacFusion2" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -1301,8 +1334,6 @@
 				D41E23990D88E7B100F46F50 /* macfusionAdvancedView.xib in Resources */,
 				D41E24260D897D5700F46F50 /* MFPreferences.xib in Resources */,
 				D41E25620D89B14900F46F50 /* Credits.rtf in Resources */,
-				D41E25C20D89B4BA00F46F50 /* MacFusion_Menu_Light.png in Resources */,
-				D41E25C30D89B4BA00F46F50 /* MacFusion_Menu_Dark.png in Resources */,
 				D45F0D950D8B3396008CC7E3 /* macfusionAgent-Info.plist in Resources */,
 				D47F67BD0D984A8700E91D45 /* logViewer.xib in Resources */,
 			);
@@ -1312,11 +1343,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D41E25EA0D89B56100F46F50 /* MacFusion_Menu_Light.png in Resources */,
-				D41E25EB0D89B56100F46F50 /* MacFusion_Menu_Dark.png in Resources */,
 				D418688E0D729F0B004975AF /* macfusionIcon.icns in Resources */,
 				D48DB9E60D70DA28008A62BB /* MainMenu.xib in Resources */,
 				D41867E70D729A31004975AF /* QuickMount.xib in Resources */,
+				3046A13D2020E1BD002C5CAE /* MacFusion_Menu_Dark.tiff in Resources */,
+				3046A13E2020E1BD002C5CAE /* MacFusion_Menu_Light.tiff in Resources */,
 				50BC2B61161837D1007E13BD /* off.png in Resources */,
 				50BC2B6416183A1B007E13BD /* on.png in Resources */,
 			);
@@ -1354,10 +1385,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				30F5D99F2405D93700D6AE7B /* curlftpfs_static_mg in Resources */,
 				D4E6DB050D93928F0022763F /* ftpfs_askpass in Resources */,
 				D4E6D8280D9373130022763F /* ftpfs_icon.icns in Resources */,
 				D4E6D82F0D9373E40022763F /* ftpfs.png in Resources */,
-				D4E6D8430D9375930022763F /* curlftpfs_static_mg in Resources */,
 				D4E6D8480D937DB00022763F /* ftpfsConfiguration.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1640,6 +1671,9 @@
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = HBQ4P53XPG;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
@@ -1649,7 +1683,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
 				SDKROOT = macosx;
 				VALID_ARCHS = x86_64;
 			};
@@ -1760,6 +1794,9 @@
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = HBQ4P53XPG;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
@@ -1769,7 +1806,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
 				ONLY_ACTIVE_ARCH = NO;
 				SDKROOT = macosx;
 				VALID_ARCHS = x86_64;
@@ -2024,8 +2061,11 @@
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = HBQ4P53XPG;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				ENABLE_TESTABILITY = YES;
+				ENABLE_TESTABILITY = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -2034,8 +2074,8 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.9;
-				ONLY_ACTIVE_ARCH = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				ONLY_ACTIVE_ARCH = NO;
 				SDKROOT = macosx;
 				VALID_ARCHS = x86_64;
 			};
@@ -2592,8 +2632,11 @@
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = HBQ4P53XPG;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				ENABLE_TESTABILITY = YES;
+				ENABLE_TESTABILITY = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -2602,8 +2645,8 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.9;
-				ONLY_ACTIVE_ARCH = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				ONLY_ACTIVE_ARCH = NO;
 				SDKROOT = macosx;
 				VALID_ARCHS = x86_64;
 			};

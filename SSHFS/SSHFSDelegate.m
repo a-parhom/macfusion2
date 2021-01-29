@@ -145,7 +145,7 @@ static NSString *advancedViewControllerKey = @"sshfsAdvancedView";
 						[NSNumber numberWithInt:22], kNetFSPortParameter,
 						[NSNumber numberWithInt:kSecProtocolTypeSSH], kNetFSProtocolParameter,
 						[NSNumber numberWithBool:NO], kSSHFSFollowSymlinksParameter,
-						[NSNumber numberWithBool:NO], kSSHFSCompressionParameter,
+						[NSNumber numberWithBool:YES], kSSHFSCompressionParameter,
                         [NSNumber numberWithBool:NO], kSSHFSDeferPermissionsParameter,
                         [NSNumber numberWithBool:NO], kSSHFSAutoCacheParameter,
                         [NSNumber numberWithBool:NO], kSSHFSFuseDebugParameter,

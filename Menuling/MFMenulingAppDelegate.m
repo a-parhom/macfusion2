@@ -83,8 +83,9 @@ OSStatus MyHotKeyHandler(EventHandlerCallRef nextHandler,EventRef theEvent,
 	NSMenu *menu = [[NSMenu alloc] initWithTitle:@"Macfusion2"];
 	[menu setDelegate:self];
 	[statusItem setMenu:menu];
-	NSImage *menuIcon = [NSImage imageNamed:@"MacFusion_Menu_Dark.png"];
-	NSImage *menuIconSelected = [NSImage imageNamed:@"MacFusion_Menu_Light.png"];
+	NSImage *menuIcon = [NSImage imageNamed:@"MacFusion_Menu_Dark.tiff"];
+	NSImage *menuIconSelected = [NSImage imageNamed:@"MacFusion_Menu_Light.tiff"];
+	[menuIcon setTemplate:YES];
 	[statusItem setHighlightMode:YES];
 	[statusItem setImage:menuIcon];
 	[statusItem setAlternateImage:menuIconSelected];

@@ -23,7 +23,8 @@
 int main(int argc, char *argv[]) {
 	[[MFLogging sharedLogging] setPrintToStandardOut:NO];
 	NSString *token = [[[NSProcessInfo processInfo] environment] objectForKey:@"SSHFS_TOKEN"];
-	// MFLogS(self, @"SSH ASKPASS running token %@", token);
+	//
+	MFLogS(self, @"SSH ASKPASS running token %@", token);
 	NSString *password=nil;
 	
 	if (!token) {
