@@ -37,10 +37,11 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
+		3012817D25C477EF0033EEB9 /* curlftpfs-static in Resources */ = {isa = PBXBuildFile; fileRef = 3012817C25C477EF0033EEB9 /* curlftpfs-static */; };
+		3012818925C478410033EEB9 /* curlftpfs-static-legacy in Resources */ = {isa = PBXBuildFile; fileRef = 3012818825C478410033EEB9 /* curlftpfs-static-legacy */; };
 		3046A13D2020E1BD002C5CAE /* MacFusion_Menu_Dark.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 3046A13B2020E1BD002C5CAE /* MacFusion_Menu_Dark.tiff */; };
 		3046A13E2020E1BD002C5CAE /* MacFusion_Menu_Light.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 3046A13C2020E1BD002C5CAE /* MacFusion_Menu_Light.tiff */; };
 		305CDF9F1FFFB7E80010586C /* sshfs-static in Resources */ = {isa = PBXBuildFile; fileRef = 305CDF9D1FFFB7C90010586C /* sshfs-static */; };
-		30F5D99F2405D93700D6AE7B /* curlftpfs_static_mg in Resources */ = {isa = PBXBuildFile; fileRef = 30F5D99D2405D93700D6AE7B /* curlftpfs_static_mg */; };
 		502970E9165625B5007676B8 /* IconFamily.h in Headers */ = {isa = PBXBuildFile; fileRef = 502970E7165625B5007676B8 /* IconFamily.h */; };
 		502970EA165625B5007676B8 /* IconFamily.m in Sources */ = {isa = PBXBuildFile; fileRef = 502970E8165625B5007676B8 /* IconFamily.m */; };
 		502970EE165625C9007676B8 /* NSString+CarbonFSRefCreation.h in Headers */ = {isa = PBXBuildFile; fileRef = 502970EC165625C9007676B8 /* NSString+CarbonFSRefCreation.h */; };
@@ -361,14 +362,12 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		0682C0451DB6D637008BFF9D /* sshfs-static-legacy */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = "sshfs-static-legacy"; sourceTree = "<group>"; };
-		0682C0471DB6D652008BFF9D /* curlftpfs-static */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = "curlftpfs-static"; sourceTree = "<group>"; };
-		0682C0481DB6D652008BFF9D /* curlftpfs-static-legacy */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = "curlftpfs-static-legacy"; sourceTree = "<group>"; };
 		08FB779EFE84155DC02AAC07 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		3012817C25C477EF0033EEB9 /* curlftpfs-static */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = "curlftpfs-static"; sourceTree = "<group>"; };
+		3012818825C478410033EEB9 /* curlftpfs-static-legacy */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = "curlftpfs-static-legacy"; sourceTree = "<group>"; };
 		3046A13B2020E1BD002C5CAE /* MacFusion_Menu_Dark.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = MacFusion_Menu_Dark.tiff; sourceTree = "<group>"; };
 		3046A13C2020E1BD002C5CAE /* MacFusion_Menu_Light.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = MacFusion_Menu_Light.tiff; sourceTree = "<group>"; };
 		305CDF9D1FFFB7C90010586C /* sshfs-static */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = "sshfs-static"; sourceTree = "<group>"; };
-		30F5D99D2405D93700D6AE7B /* curlftpfs_static_mg */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = curlftpfs_static_mg; sourceTree = "<group>"; };
 		502970E7165625B5007676B8 /* IconFamily.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IconFamily.h; path = MFCore/IconFamily.h; sourceTree = "<group>"; };
 		502970E8165625B5007676B8 /* IconFamily.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = IconFamily.m; path = MFCore/IconFamily.m; sourceTree = "<group>"; };
 		502970EC165625C9007676B8 /* NSString+CarbonFSRefCreation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSString+CarbonFSRefCreation.h"; path = "MFCore/NSString+CarbonFSRefCreation.h"; sourceTree = "<group>"; };
@@ -1026,7 +1025,8 @@
 		D4E6D8170D9372C40022763F /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				30F5D99D2405D93700D6AE7B /* curlftpfs_static_mg */,
+				3012818825C478410033EEB9 /* curlftpfs-static-legacy */,
+				3012817C25C477EF0033EEB9 /* curlftpfs-static */,
 				D4E6D8470D937DB00022763F /* ftpfsConfiguration.xib */,
 				D4E6D82E0D9373E40022763F /* ftpfs.png */,
 				D4E6D80A0D9372640022763F /* ftpfs-Info.plist */,
@@ -1388,9 +1388,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				30F5D99F2405D93700D6AE7B /* curlftpfs_static_mg in Resources */,
 				D4E6DB050D93928F0022763F /* ftpfs_askpass in Resources */,
-				0682C04C1DB6D811008BFF9D /* curlftpfs-static-legacy in Resources */,
+				3012818925C478410033EEB9 /* curlftpfs-static-legacy in Resources */,
+				3012817D25C477EF0033EEB9 /* curlftpfs-static in Resources */,
 				D4E6D8280D9373130022763F /* ftpfs_icon.icns in Resources */,
 				D4E6D82F0D9373E40022763F /* ftpfs.png in Resources */,
 				D4E6D8480D937DB00022763F /* ftpfsConfiguration.xib in Resources */,
