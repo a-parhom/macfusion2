@@ -12,13 +12,9 @@
 	<string>6.0</string>
 	<key>CFBundlePackageType</key>
 	<string>FMWK</string>
-	<key>CFBundleShortVersionString</key>
-	<string>VERSION_INFO</string>
 	<key>CFBundleSignature</key>
 	<string>????</string>
 	<key>CFBundleVersion</key>
-	<string>REVISION_INFO</string>
-	<key>GitHash</key>
-	<string>GIT_HASH_INFO</string>
+	<string>2.0.5-dev</string>
 </dict>
 </plist>
